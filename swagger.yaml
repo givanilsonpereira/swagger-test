@@ -1,0 +1,23 @@
+openapi: "3.0.0"
+info:
+  title: Minha API
+  description: Descrição da minha API
+  version: 1.0.0
+paths:
+  /users:
+    get:
+      summary: Retorna uma lista de usuários
+      responses:
+        '200':
+          description: Lista de usuários
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    name:
+                      type: string
