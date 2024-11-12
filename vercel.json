@@ -4,12 +4,20 @@
     {
       "src": "swagger/**/*",
       "use": "@vercel/static"
+    },
+    {
+      "src": "public/index.html",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/swagger.yaml",
       "dest": "/swagger/swagger.yaml"
+    },
+    {
+      "src": "/",
+      "dest": "/public/index.html"
     }
   ]
 }
