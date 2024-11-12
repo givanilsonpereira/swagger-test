@@ -14,10 +14,6 @@
     {
       "src": "/swagger.yaml",
       "dest": "/swagger/swagger.yaml"
-    },
-    {
-      "src": "/",
-      "dest": "/public/index.html"
     }
   ]
 }
