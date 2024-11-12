@@ -6,7 +6,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "public/*",
+      "src": "public/**/*",
       "use": "@vercel/static"
     }
   ],
@@ -18,6 +18,34 @@
     {
       "src": "/",
       "dest": "/public/index.html"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "dest": "/public/favicon-16x16.png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "dest": "/public/favicon-32x32.png"
+    },
+    {
+      "src": "/index.css",
+      "dest": "/public/index.css"
+    },
+    {
+      "src": "/swagger-ui.css",
+      "dest": "/public/swagger-ui.css"
+    },
+    {
+      "src": "/swagger-initializer.js",
+      "dest": "/public/swagger-initializer.js"
+    },
+    {
+      "src": "/swagger-ui-bundle.js",
+      "dest": "/public/swagger-ui-bundle.js"
+    },
+    {
+      "src": "/swagger-ui-standalone-preset.js",
+      "dest": "/public/swagger-ui-standalone-preset.js"
     }
   ]
 }
